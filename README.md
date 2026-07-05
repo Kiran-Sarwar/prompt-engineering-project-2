@@ -48,6 +48,10 @@ prompt-engineering-project-2/
 └── screenshots/
 ```
 ---
+##  Project Files
+
+- [Prompt Design](prompt.md)
+- [Test Cases](test_cases.md)
 
 ##  Skills Demonstrated
 
@@ -61,7 +65,21 @@ prompt-engineering-project-2/
 - Git & GitHub Version Control
 
 ---
-## 📸 Screenshots
+
+##  Results
+
+The prompt was evaluated using five different reasoning tasks:
+
+| Test Case | Category | Result |
+|-----------|----------|--------|
+| Sheep Logic | Logic Trap | ✅ Passed |
+| Five Machines | Mathematical Reasoning | ✅ Passed |
+| Emily's Father | Reading Comprehension | ✅ Passed |
+| Months Question | Logic Trap | ✅ Passed |
+| Average Speed | Multi-step Calculation | ✅ Passed |
+
+Overall Success Rate: **5/5 Tests Passed**
+##  Screenshots
 
 ### Test Case 1 - Sheep Logic Problem
 
@@ -109,3 +127,13 @@ Possible enhancements for this project include:
 **Kiran Sarwar**
 
 This project was completed as part of the **DecodeLabs Prompt Engineering Internship**.
+
+##  Key Learnings
+
+Through this project, I learned:
+
+- How to design structured prompts.
+- How Chain-of-Thought prompting improves reasoning.
+- The importance of self-correction in prompt engineering.
+- How to evaluate prompts using different reasoning tasks.
+- How to document AI projects professionally using GitHub.
